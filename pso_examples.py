@@ -10,18 +10,29 @@ print('CPCR Curve')
 print('  Yield Stress <= 100 kpsi')
 print('  Yield Stress <= Buckling Stress')
 print('  Deflection   <= 0.25 inches')
+def caculatemean(arg,size):
+    sum=0.0
+    for i in xrange(size):
+        sum=sum+arg[i]
+    return sum/size
 def caculate(x,parameters):
     a,b,c,d,e,f,g=parameters
     return a+b*x+c/((1+math.exp(-d*(x-e)))*(1+math.exp(-f*(x-g))))
 def myfunction(parameters,*args):
     a,b,c,d,e,f,g=parameters
     y=args
-    sum=0.0
+    SSE=0.0
     size=len(y)
     for i in xrange(size):
         yi=caculate(i+1,parameters)
-        sum=sum+math.pow((y[i]-yi),2)
-    return sum
+        SSE=SSE+math.pow((y[i]-yi),2)/size
+    meanvalue=caculatemean(args,size)
+    SST=0.0
+    for i in xrange(size):
+        SST=SST+math.pow((y[i]-meanvalue),2)
+        if SST==0:
+            print('warning the SST maybe be zero')
+    return (SSE/SST)-1
 
 def readfile(filename):
     rows=[]
@@ -62,9 +73,10 @@ def main():
         minNum=args.min()
         maxNum=args.max()
         meanNum=args.mean()
-        lb=[minNum,0,meanNum+minNum,-1,maxNum+minNum,-1,maxNum+minNum]
+        lb=[minNum-20,0,meanNum-100,-1,maxNum-100,-1,maxNum-100]
         ub=[meanNum,0.5,meanNum+maxNum,1.1,meanNum+maxNum,1.1,meanNum+maxNum]
-        xopt4,fopt4=pso(myfunction,lb,ub,args=args)
+        initialData=[minNum,0.01,meanNum,0.1,maxNum,0.7,maxNum] 
+        xopt4,fopt4=pso(myfunction,lb,ub,args=args,initialData=initialData)
         print('The optimum is at:')
         print('    {}'.format(xopt4))
         print('Optimal function values:')

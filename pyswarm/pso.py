@@ -16,9 +16,9 @@ def _cons_ieqcons_wrapper(ieqcons, args, kwargs, x):
 def _cons_f_ieqcons_wrapper(f_ieqcons, args, kwargs, x):
     return np.array(f_ieqcons(x, *args, **kwargs))
     
-def pso(func, lb, ub, ieqcons=[], f_ieqcons=None, args=(), kwargs={}, 
+def pso(func, lb, ub, ieqcons=[], f_ieqcons=None, args=(), kwargs={},initialData=[], 
         swarmsize=100, omega=0.5, phip=0.5, phig=0.5, maxiter=100, 
-        minstep=1e-8, minfunc=1e-8, debug=False, processes=1,
+        minstep=1e-2, minfunc=1e-8, debug=False, processes=1,
         particle_output=False):
     """
     Perform a particle swarm optimization (PSO)
@@ -125,6 +125,9 @@ def pso(func, lb, ub, ieqcons=[], f_ieqcons=None, args=(), kwargs={},
     S = swarmsize
     D = len(lb)  # the number of dimensions each particle has
     x = np.random.rand(S, D)  # particle positions
+    '''for i in xrange(S):
+        for j in xrange(D):
+            x[i][j]=x[i][j]+initialData[j]'''
     v = np.zeros_like(x)  # particle velocities
     p = np.zeros_like(x)  # best particle positions
     fx = np.zeros(S)  # current particle function values
@@ -135,6 +138,7 @@ def pso(func, lb, ub, ieqcons=[], f_ieqcons=None, args=(), kwargs={},
     
     # Initialize the particle's position
     x = lb + x*(ub - lb)
+    
 
     # Calculate objective and constraints for each particle
     if processes > 1:
