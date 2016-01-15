@@ -4,7 +4,7 @@ pyswarm: Particle swarm optimization (PSO) with constraint support
 ================================================================================
 
 Authors: Abraham Lee
-         Sebastian Castillo-Hair
+         Sebastian Castillo-Hair and youbingchen(modify)
 Copyright: 2013-2015
 
 """

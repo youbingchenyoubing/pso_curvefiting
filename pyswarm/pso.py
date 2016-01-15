@@ -16,9 +16,9 @@ def _cons_ieqcons_wrapper(ieqcons, args, kwargs, x):
 def _cons_f_ieqcons_wrapper(f_ieqcons, args, kwargs, x):
     return np.array(f_ieqcons(x, *args, **kwargs))
     
-def pso(func, lb, ub, ieqcons=[], f_ieqcons=None, args=(), kwargs={},initialData=[], 
-        swarmsize=200, omega=0.7, phip=0.4, phig=0.6, maxiter=100, 
-        minstep=1e-4, minfunc=1e-8, debug=False, processes=1,
+def pso(func, lb, ub, ieqcons=[], f_ieqcons=None, args=(), kwargs={},initialData=[],initialData2=[], 
+        swarmsize=200, omega=0.5, phip=0.4, phig=0.6, maxiter=200, 
+        minstep=1e-12, minfunc=0, debug=False, processes=1,
         particle_output=False):
     """
     Perform a particle swarm optimization (PSO)
@@ -139,12 +139,21 @@ def pso(func, lb, ub, ieqcons=[], f_ieqcons=None, args=(), kwargs={},initialData
     # Initialize the particle's position
     x = lb + x*(ub - lb)
     x[0]=initialData
-    for i in xrange(1,10): 
+    for i in xrange(1,21): 
         for j in xrange(D):
             if j==3:
                 x[i][j]=initialData[j]+0.1
+                initialData[j]=initialData[j]+0.1
             else:
                 x[i][j]=initialData[j]
+    x[180]=initialData2
+    for i in xrange(181,200):
+        for j in xrange(D):
+            if j==5:
+                x[i][j]=initialData2[j]+0.1
+                initialData2[j]=initialData2[j]+0.1
+            else:
+                x[i][j]=initialData2[j]
     # Calculate objective and constraints for each particle
     if processes > 1:
         fx = np.array(mp_pool.map(obj, x))
