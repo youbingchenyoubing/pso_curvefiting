@@ -53,6 +53,22 @@ def readfile(filename):
             if row:
                 rows.append(row)
     return np.array(np.transpose(rows),dtype=float)
+#read weight data in csv format
+def readweightfile(filename):
+    rows=[]
+    weightrows=[]
+    with open(filename) as f:
+        f_csv=csv.reader(f)
+        header=next(f_csv)
+        sum=0.0
+        for row in f_csv:
+            if row:
+                newrow=float(row[0])
+                sum=sum+newrow
+                rows.append(newrow)
+    for iteranum in rows:
+        weightrows.append(iteranum/sum)
+    return weightrows 
 #caculate average of all number to shutdown the number 
 def caculatemidnum(data):
     sum=0.0

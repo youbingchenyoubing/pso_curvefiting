@@ -98,6 +98,7 @@ def main():
             print('ajusted R-squared:{}'.format(-fopt4)) 
         print('The optimum is at:')
         print('    {}'.format(xopt4))
+        #xopt4=minimizefunction(xopt4,Xmin,Xmax,args)
         file_result.write(repr(xopt4[0]).rjust(40)+repr(xopt4[1]).rjust(40)+repr(xopt4[2]).rjust(40)+repr(xopt4[3]).rjust(40)+repr(xopt4[4]).rjust(40)+repr(xopt4[5]).rjust(40)+repr(xopt4[6]).rjust(40)+repr(fopt4).rjust(40)+'\n')
         x=np.linspace(Xmin-2,Xmax+2,10000)
         y=xopt4[0]+xopt4[1]*x+xopt4[2]/((1+np.exp(-xopt4[3]*(x-xopt4[4])))*(1+np.exp(-xopt4[5]*(x-xopt4[6]))))
