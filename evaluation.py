@@ -86,7 +86,7 @@ def  residualData(params,x,data,eps_data):
     f=params['f'].value
     g=params['g'].value
     model=a+b*x+c/((1+np.exp(-d*(x-e)))*(1+np.exp(-f*(x-g))))
-    return (data-model)/eps_data
+    return (model-data)/eps_data
 
 def getparams(vars):
     params=Parameters()
@@ -108,16 +108,41 @@ def getresult(parameters):
     result.append(parameters['f'].value)
     result.append(parameters['g'].value)
     return result 
-def minimizefunction(vars,low,high,data,eps_data=1):
-    params=getparams(vars)
+def minimizefunction(vars,low,high,data):
+    mymod=Model(myfitfunction)
+    newdata=[]
     x=np.array(range(low,high),int)
-    out=minimize(residualData,params,args=(x,data,eps_data))
-    print(out.report())
-    result=getresult(out.params)
-    return result
+    for i in xrange(low,high):
+        newdata.append(data[i])
+    #params=getparams(vars)
+    mymod.set_param_hint('a',value=vars[0])
+    mymod.set_param_hint('b',value=vars[1],min=0,max=0.5)
+    mymod.set_param_hint('c',value=vars[2])
+    mymod.set_param_hint('d',value=vars[3],min=-1,max=1.1)
+    mymod.set_param_hint('e',value=vars[4])
+    mymod.set_param_hint('f',value=vars[5],min=-1,max=1.1)
+    mymod.set_param_hint('g',value=vars[6])
+    #print params
+    out=mymod.fit(newdata,x=x)
+    #result=getresult(out.params)
+    print(out.fit_report())
+    #x1=np.linspace(1,length,10000)
+    plt.plot(x,newdata,'blue',linestyle='dashed',marker='.')
+    plt.plot(x,out.init_fit,'y',linewidth=2)
+    plt.plot(x,out.best_fit,'r',linewidth=2)
+    plt.xlabel("circle(Time)")
+    plt.ylabel("fluorescence")
+    plt.legend()
+    plt.show()
+    file_result=open('./result/result_select_itera.txt','r+')
+    file_result.read()
+    file_result.write(out.fit_report())
+    file_result.write('\n\n')
+    file_result.close()
+    #file_result.write(out.params)
 def myfitfunction(x,a,b,c,d,e,f,g):
     return a+b*x+c/((1+np.exp(-d*(x-e)))*(1+np.exp(-f*(x-g))))
-def fitfunction(vars,length,data):
+def fitfunction(vars,length,data,weight=None,method='leastsq'):
     mymod=Model(myfitfunction)
     x=np.array(range(1,length+1),int)
     #params=getparams(vars)
@@ -129,7 +154,7 @@ def fitfunction(vars,length,data):
     mymod.set_param_hint('f',value=vars[5],min=-1,max=1.1)
     mymod.set_param_hint('g',value=vars[6])
     #print params
-    out=mymod.fit(data,x=x)
+    out=mymod.fit(data,x=x,weight=weight)
     #result=getresult(out.params)
     print(out.fit_report())
     #x1=np.linspace(1,length,10000)
@@ -140,4 +165,9 @@ def fitfunction(vars,length,data):
     plt.ylabel("fluorescence")
     plt.legend()
     plt.show()
-    print(out.params) 
+    file_result=open('./result/result_all_itera.txt','r+')
+    file_result.read()
+    file_result.write(out.fit_report())
+    file_result.write('\n\n')
+    file_result.close()
+    #file_result.write(out.params)

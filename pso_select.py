@@ -43,6 +43,8 @@ def main():
     midnum=caculatemidnum(newbigger)
     data=data/midnum
     if row>0:
+        file_result_itera=open('./result/result_select_itera.txt','w')
+        file_result_itera.close()
         file_result=open('./result/result_select.txt','w')
         file_result.write(repr('para_a').rjust(40)+repr('para_b').rjust(40)+repr('para_c').rjust(40)+repr('para_d').rjust(40)+repr('para_e').rjust(40)+repr('para_f').rjust(40)+repr('para_g').rjust(40)+repr('error').rjust(40)+'\n')
     for rownum in xrange(row):
@@ -72,7 +74,7 @@ def main():
         radiomax=radio*maxNum
         radiomean=radio*meanNum
         lb=[-1,0,minNum,-1,0,-1,0]
-        ub=[1,0.5,general+radiomean-maxNum,1.1,general+radiomax,1.1,general+radiomax]
+        ub=[1,0.5,meanNum+radiomean,1.1,general+radiomax,1.1,general+radiomax]
         initialData=[0,0.01,meanNum,-1,maxNum,0.7,maxNum]
         initialData2=[0,0.03,meanNum,0.1,maxNum,-1,radiomax] 
         print("please wait a moment....")
@@ -96,24 +98,28 @@ def main():
             xopt4,fopt4=pso(AdjustRS,lb,ub,args=args,initialData=initialData,initialData2=initialData2,swarmsize=250,maxiter=iteration)
             print('Optimal function values:')
             print('ajusted R-squared:{}'.format(-fopt4)) 
-        print('The optimum is at:')
-        print('    {}'.format(xopt4))
-        #xopt4=minimizefunction(xopt4,Xmin,Xmax,args)
         file_result.write(repr(xopt4[0]).rjust(40)+repr(xopt4[1]).rjust(40)+repr(xopt4[2]).rjust(40)+repr(xopt4[3]).rjust(40)+repr(xopt4[4]).rjust(40)+repr(xopt4[5]).rjust(40)+repr(xopt4[6]).rjust(40)+repr(fopt4).rjust(40)+'\n')
         x=np.linspace(Xmin-2,Xmax+2,10000)
+        y1=xopt4[0]+xopt4[1]*x+xopt4[2]/((1+np.exp(-xopt4[3]*(x-xopt4[4])))*(1+np.exp(-xopt4[5]*(x-xopt4[6]))))
+        print('The optimum is at:')
+        print('    {}'.format(xopt4))
+        minimizefunction(xopt4,Xmin,Xmax,args)
+        '''file_result.write(repr(xopt4[0]).rjust(40)+repr(xopt4[1]).rjust(40)+repr(xopt4[2]).rjust(40)+repr(xopt4[3]).rjust(40)+repr(xopt4[4]).rjust(40)+repr(xopt4[5]).rjust(40)+repr(xopt4[6]).rjust(40)+repr(fopt4).rjust(40)+'\n')
         y=xopt4[0]+xopt4[1]*x+xopt4[2]/((1+np.exp(-xopt4[3]*(x-xopt4[4])))*(1+np.exp(-xopt4[5]*(x-xopt4[6]))))
         plt.figure(rownum)
         for i in xrange(Xmin,Xmax):
             plt.plot(i+1,args[i],'blue',linestyle='dashed',marker='.')
+        plt.plot(x,y1,'y',linewidth=2)
         plt.plot(x,y,'r',linewidth=2)
         plt.plot(maxPosition,args[maxPosition-1],'red',linestyle='dashed',marker='*')
         plt.xlabel("circle(Time)")
         plt.ylabel("fluorescence")
         plt.legend()
-        plt.show()
+        plt.show()'''
     if row>0:
         file_result.close()
-        print("please go to the dir of result to save this result_select.txt\n")
+        print("***********************attention************************************")
+        print("please go to the dir of result to save this result_select.txt and result_select_itera.txt\n")
 if __name__=="__main__":
     main()
 

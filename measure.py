@@ -33,7 +33,10 @@ def getArrangea(data,length):
 def getArrange(data,length):
     maxposition=getX(data,length)
     global arrange
-    return maxposition-arrange
+    arrange=30
+    if maxposition>arrange:
+        return maxposition-arrange
+    else: return maxposition
 
 
 def constraint(data,Xmin,Xmax):

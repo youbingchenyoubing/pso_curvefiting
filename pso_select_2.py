@@ -51,16 +51,16 @@ def main():
         print data[rownum].mean()'''
         args=data[rownum]
         length=len(args)
-        maxPosition=getX_2(args,length)
-        if maxPosition<10:
+        maxPosition=getX(args,length)
+        if maxPosition<30:
             Xmin=0
             Xmax=maxPosition+40-(maxPosition-Xmin)
-        elif maxPosition>length-30:
+        elif maxPosition>length-10:
             Xmax=length-1
             Xmin=maxPosition-40+(Xmax-maxPosition)
         else:
-            Xmax=maxPosition+30
-            Xmin=maxPosition-10
+            Xmax=maxPosition+10
+            Xmin=maxPosition-30
         iteration=constraint(args,Xmin,Xmax)
         print('iterations={}'.format(iteration))
         print('maxPosition={}'.format(maxPosition))
@@ -112,6 +112,7 @@ def main():
         plt.show()
     if row>0:
         file_result.close()
+        print("***********************attention************************************")
         print('please go to the dir of result to save result_select_2.txt\n')
 if __name__=="__main__":
     main()

@@ -53,7 +53,7 @@ def main():
         #arrange=getArrangea(args,length)
         radiomax=radio*60
         radiomean=radio*meanNum
-        lb=[-2,0,minNum,-1,-meanNum,-1,-meanNum]
+        lb=[-1,0,minNum,-1,0,-1,0]
         ub=[1,0.5,general+radiomean-maxNum,1.1,general+radiomax,1.1,general+radiomax]
         initialData=[0,0.01,meanNum,-1,maxNum,0.7,maxNum]
         initialData2=[0,0.03,meanNum,0.1,maxNum,-1,radiomax] 
@@ -78,7 +78,12 @@ def main():
             xopt4,fopt4=pso(AdjustRS,lb,ub,args=args,initialData=initialData,initialData2=initialData2,swarmsize=250,maxiter=iteration)
             print('Optimal function values:')
             print('ajusted R-squared:{}'.format(-fopt4)) 
-        print('The optimum is at:')
+        file_result.write(repr(xopt4[0]).rjust(40)+repr(xopt4[1]).rjust(40)+repr(xopt4[2]).rjust(40)+repr(xopt4[3]).rjust(40)+repr(xopt4[4]).rjust(40)+repr(xopt4[5]).rjust(40)+repr(xopt4[6]).rjust(40)+repr(fopt4).rjust(40)+'\n')
+        print('please wait a moment again,it\'s next to minimize the function')
+        #xopt4=minimizefunction(xopt4,length,args)
+        fitfunction(xopt4,length,args,weight)
+       
+        '''print('The optimum is at:')
         print('    {}'.format(xopt4))
         file_result.write(repr(xopt4[0]).rjust(40)+repr(xopt4[1]).rjust(40)+repr(xopt4[2]).rjust(40)+repr(xopt4[3]).rjust(40)+repr(xopt4[4]).rjust(40)+repr(xopt4[5]).rjust(40)+repr(xopt4[6]).rjust(40)+repr(fopt4).rjust(40)+'\n')
         x=np.linspace(1,length,10000)
@@ -90,7 +95,7 @@ def main():
         plt.xlabel("circle(Time)")
         plt.ylabel("fluorescence")
         plt.legend()
-        plt.show()
+        plt.show()'''
     if row>0:
         file_result.close()
         print('please go to dir of result to save result_all.txt file\n')
