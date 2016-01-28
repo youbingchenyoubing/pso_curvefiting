@@ -2,6 +2,33 @@ import numpy as np
 import csv
 
 arrange=30
+def getMinMax(length,maxPosition):
+    Xmin=Xmax=0
+    if maxPosition<20:
+        Xmin=0
+        Xmax=maxPosition+40-(maxPosition-Xmin)
+    elif maxPosition>length-20:
+        Xmax=length-1
+        Xmin=maxPosition-40+(Xmax-maxPosition)
+    else:
+        Xmax=maxPosition+20
+        Xmin=maxPosition-20
+    return Xmin,Xmax
+def parition(array,p,r):
+    x=array[r]
+    i=p-1
+    for j in range(p,r):
+        if (array[j]<x):
+            i+=1
+            array[j],array[i]=array[i],array[j]
+    i+=1
+    array[i],array[r]=array[r],array[i]
+    return i
+def quick_sort(array,p,r):
+    if p<r:
+        q=parition(array,p,r)
+        quick_sort(array,p,q-1)
+        quick_sort(array,q+1,r)
 #dissication for
 def getX(data,length):
     maxNum=0
@@ -11,7 +38,6 @@ def getX(data,length):
             maxNum=data[i]-data[i-1]
             maxPosition=i
     return maxPosition+1
-
 
 #  
 def getX_2(data,length):

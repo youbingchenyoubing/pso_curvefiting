@@ -1,8 +1,15 @@
+import math
 import numpy as np
 import matplotlib.pyplot as plt
 import math
 import scipy
 from lmfit import minimize, Parameters,Model
+#printf all result
+def printfresult(parameters,args,Xmin,Xmax):
+    RMSE=RMSEfunction(parameters,args,Xmin,Xmax)
+    Rscore=R_score(parameters,args,Xmin,Xmax)
+    AD_rscore=Adjusted_R_score(parameters,args,Xmin,Xmax)
+    print("RMSE={},Rscore={},adjust_R_score={}".format(RMSE,-Rscore,-AD_rscore))
 #give a x caculate y y=f(x)
 def caculate(x,parameters):
     a,b,c,d,e,f,g=parameters
@@ -158,9 +165,17 @@ def fitfunction(vars,length,data,weight=None,method='leastsq'):
     #result=getresult(out.params)
     print(out.fit_report())
     #x1=np.linspace(1,length,10000)
+    initialRMSE=printresult(data,out.init_fit)
+    bestRMSE=printresult(data,out.best_fit)
     plt.plot(x,data,'blue',linestyle='dashed',marker='.')
     plt.plot(x,out.init_fit,'y',linewidth=2)
-    plt.plot(x,out.best_fit,'r',linewidth=2)
+    print("RMSE of pso is{}".format(initialRMSE))
+    if initialRMSE<bestRMSE:
+        plt.plot(x,out.init_fit,'r',linewidth=2)
+        print("RMSE of iteration is {}".format(initialRMSE))
+    else:
+        plt.plot(x,out.best_fit,'r',linewidth=2)
+        print("RMSE of iteration is {}".format(bestRMSE))
     plt.xlabel("circle(Time)")
     plt.ylabel("fluorescence")
     plt.legend()
@@ -171,3 +186,21 @@ def fitfunction(vars,length,data,weight=None,method='leastsq'):
     file_result.write('\n\n')
     file_result.close()
     #file_result.write(out.params)
+
+
+def printresult(data,perfectdata):
+    length=len(data)
+    SSE=caculateSSE(data,perfectdata,length)
+    RMSE=caculateRMSE(SSE,length)
+    return RMSE
+   
+def caculateSSE(data,perfectdata,length):
+    sum=0
+    for i in xrange(length):
+        sum=sum+math.pow(data[i]-perfectdata[i],2)
+    return sum
+
+def caculateRMSE(SSE,length):
+    return np.sqrt(SSE/length)
+    
+    

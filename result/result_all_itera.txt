@@ -1,1312 +1,229 @@
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
-    # function evals   = 35
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 21.994
-    reduced chi-square = 0.265
-[[Variables]]
-    a:  -2.47977502 +/- 0.200688 (8.09%) (init=-0.8651241)
-    b:   0.17291818 +/- 0.013562 (7.84%) (init= 0.1786537)
-    c:   78.5804334 +/- 1.031837 (1.31%) (init= 75.86065)
-    d:   0.46722344 +/- 0.028459 (6.09%) (init= 0.4903724)
-    e:   32.0379050 +/- 0.136669 (0.43%) (init= 32.50672)
-    f:   0.10928989 +/- 0.002362 (2.16%) (init= 0.114344)
-    g:   41.5540471 +/- 0.111052 (0.27%) (init= 41.81091)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.982 
-    C(a, b)                      = -0.859 
-    C(c, f)                      = -0.796 
-    C(a, c)                      =  0.787 
-    C(d, f)                      =  0.726 
-    C(b, f)                      =  0.722 
-    C(c, d)                      = -0.609 
-    C(a, f)                      = -0.569 
-    C(b, d)                      =  0.560 
-    C(d, g)                      =  0.520 
-    C(e, g)                      = -0.457 
-    C(f, g)                      =  0.365 
-    C(a, d)                      = -0.365 
-    C(e, f)                      = -0.305 
-    C(a, g)                      =  0.197 
-    C(b, e)                      =  0.151 
-    C(c, e)                      = -0.115 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 90
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 763.337
-    reduced chi-square = 9.197
-[[Variables]]
-    a:  -2.57589647 +/- 0        (0.00%) (init=-1)
-    b:   1.2843e-08 +/- 0        (0.00%) (init= 0.1452357)
-    c:   105.265533 +/- 0        (0.00%) (init= 88.77343)
-    d:   0.11919253 +/- 0        (0.00%) (init= 0.1447184)
-    e:   52.4936609 +/- 0        (0.00%) (init= 52.78736)
-    f:  -0.79851915 +/- 0        (0.00%) (init=-0.7985192)
-    g:   214.379278 +/- 0        (0.00%) (init= 214.3793)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 20
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 966.638
-    reduced chi-square = 11.646
-[[Variables]]
-    a:  -3.17884774 +/- 0        (0.00%) (init=-0.455868)
-    b:   0.00905739 +/- 0        (0.00%) (init= 0)
-    c:   107.221564 +/- 0        (0.00%) (init= 103.5283)
-    d:  -0.64837120 +/- 0        (0.00%) (init=-0.6483712)
-    e:   127.068380 +/- 0        (0.00%) (init= 127.0684)
-    f:   0.13229788 +/- 0        (0.00%) (init= 0.1407642)
-    g:   49.2430602 +/- 0        (0.00%) (init= 49.01817)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 112
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 4.520
-    reduced chi-square = 0.054
-[[Variables]]
-    a:  -0.12342945 +/- 0.092891 (75.26%) (init=-0.5419048)
-    b:   0.00113499 +/- 0.005947 (524.00%) (init= 0.1737113)
-    c:   66.1189242 +/- 0.502893 (0.76%) (init= 50.63502)
-    d:   0.09027775 +/- 0.001408 (1.56%) (init= 0.1118251)
-    e:   43.2569768 +/- 0.107842 (0.25%) (init= 43.14807)
-    f:   0.36223272 +/- 0.009322 (2.57%) (init= 0.4998467)
-    g:   35.9368462 +/- 0.086117 (0.24%) (init= 37.52663)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.970 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.793 
-    C(c, d)                      = -0.761 
-    C(d, f)                      =  0.749 
-    C(e, g)                      = -0.698 
-    C(e, f)                      =  0.694 
-    C(d, e)                      =  0.655 
-    C(c, f)                      = -0.654 
-    C(b, d)                      =  0.626 
-    C(b, f)                      =  0.580 
-    C(d, g)                      = -0.580 
-    C(a, d)                      = -0.487 
-    C(a, f)                      = -0.382 
-    C(f, g)                      = -0.327 
-    C(c, e)                      = -0.244 
-    C(b, e)                      =  0.148 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 68
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 14.147
-    reduced chi-square = 0.170
-[[Variables]]
-    a:  -1.06649444 +/- 0.159210 (14.93%) (init=-0.2426161)
-    b:   0.07480141 +/- 0.009526 (12.74%) (init= 0.1052691)
-    c:   55.6014472 +/- 0.839593 (1.51%) (init= 50.90313)
-    d:   0.34992604 +/- 0.019127 (5.47%) (init= 0.59944)
-    e:   38.0976846 +/- 0.195483 (0.51%) (init= 38.07707)
-    f:   0.08792037 +/- 0.002849 (3.24%) (init= 0.1067636)
-    g:   46.2558247 +/- 0.216917 (0.47%) (init= 47.48509)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.954 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.775 
-    C(c, f)                      = -0.739 
-    C(d, f)                      =  0.734 
-    C(d, g)                      =  0.693 
-    C(e, g)                      = -0.657 
-    C(c, d)                      = -0.649 
-    C(f, g)                      =  0.625 
-    C(e, f)                      = -0.607 
-    C(b, d)                      =  0.557 
-    C(b, f)                      =  0.553 
-    C(a, f)                      = -0.419 
-    C(a, d)                      = -0.362 
-    C(d, e)                      = -0.320 
-    C(c, g)                      = -0.240 
-    C(b, g)                      =  0.139 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 155
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 4.716
-    reduced chi-square = 0.057
-[[Variables]]
-    a:  -0.01969641 +/- 0.085837 (435.80%) (init=-0.138243)
-    b:   3.9667e-10 +/- 0.000639 (160977447.92%) (init= 0.02602907)
-    c:   48.0799434 +/- 0.438124 (0.91%) (init= 44.69431)
-    d:   0.08960723 +/- 0.002070 (2.31%) (init= 0.1078338)
-    e:   52.2943165 +/- 0.140400 (0.27%) (init= 52.9915)
-    f:   0.32397840 +/- 0.012903 (3.98%) (init= 0.5148105)
-    g:   42.6406107 +/- 0.165176 (0.39%) (init= 42.1821)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      =  0.900 
-    C(a, b)                      =  0.873 
-    C(c, d)                      = -0.748 
-    C(e, f)                      =  0.728 
-    C(d, f)                      =  0.726 
-    C(a, c)                      =  0.718 
-    C(d, g)                      = -0.697 
-    C(c, f)                      = -0.657 
-    C(e, g)                      = -0.579 
-    C(d, e)                      =  0.575 
-    C(b, f)                      = -0.524 
-    C(b, d)                      = -0.446 
-    C(f, g)                      = -0.375 
-    C(a, f)                      = -0.331 
-    C(a, d)                      = -0.319 
-    C(c, e)                      = -0.298 
-    C(b, e)                      = -0.215 
-    C(c, g)                      =  0.187 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 60
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 3.206
-    reduced chi-square = 0.039
-[[Variables]]
-    a:  -0.21180923 +/- 0.074645 (35.24%) (init=-0.7939544)
-    b:   0.00856379 +/- 0.004341 (50.69%) (init= 0.107644)
-    c:   55.0466541 +/- 0.375487 (0.68%) (init= 46.12347)
-    d:   0.36119663 +/- 0.009904 (2.74%) (init= 0.5679502)
-    e:   38.5477864 +/- 0.093555 (0.24%) (init= 39.49957)
-    f:   0.09216155 +/- 0.001351 (1.47%) (init= 0.1102937)
-    g:   47.1303535 +/- 0.095173 (0.20%) (init= 47.52634)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.953 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.773 
-    C(c, f)                      = -0.731 
-    C(d, f)                      =  0.729 
-    C(d, g)                      =  0.696 
-    C(c, d)                      = -0.636 
-    C(e, g)                      = -0.623 
-    C(f, g)                      =  0.616 
-    C(e, f)                      = -0.588 
-    C(b, f)                      =  0.544 
-    C(b, d)                      =  0.544 
-    C(a, f)                      = -0.413 
-    C(a, d)                      = -0.353 
-    C(d, e)                      = -0.295 
-    C(c, g)                      = -0.240 
-    C(b, g)                      =  0.150 
-    C(b, e)                      =  0.112 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 59
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 4.000
-    reduced chi-square = 0.048
-[[Variables]]
-    a:  -0.20919648 +/- 0.080006 (38.24%) (init=-0.1870559)
-    b:   0.01121204 +/- 0.004291 (38.28%) (init= 0.07415194)
-    c:   62.0054803 +/- 0.387989 (0.63%) (init= 54.92497)
-    d:   0.09031065 +/- 0.001345 (1.49%) (init= 0.1052606)
-    e:   49.2078945 +/- 0.094596 (0.19%) (init= 49.23801)
-    f:   0.36820168 +/- 0.009555 (2.60%) (init= 0.4617227)
-    g:   40.9337070 +/- 0.090592 (0.22%) (init= 41.81993)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.928 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.745 
-    C(c, d)                      = -0.723 
-    C(d, f)                      =  0.706 
-    C(e, f)                      =  0.688 
-    C(d, g)                      = -0.631 
-    C(c, f)                      = -0.626 
-    C(e, g)                      = -0.609 
-    C(d, e)                      =  0.589 
-    C(b, f)                      =  0.514 
-    C(b, d)                      =  0.474 
-    C(a, d)                      = -0.351 
-    C(a, f)                      = -0.328 
-    C(f, g)                      = -0.316 
-    C(c, e)                      = -0.239 
-    C(b, e)                      =  0.144 
-    C(b, g)                      =  0.121 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 731
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 5.166
-    reduced chi-square = 0.062
-[[Variables]]
-    a:  -1.44588507 +/- 0.096724 (6.69%) (init=-0.9999998)
-    b:   0.06164808 +/- 0.001599 (2.60%) (init= 0.05458443)
-    c:   33.9063127 +/- 1.84e+05 (541563.53%) (init= 2.23662)
-    d:   0.01068456 +/- 1.277178 (11953.48%) (init= 0.2891753)
-    e:   367.383117 +/- 5.69e+05 (154776.30%) (init= 9.262251)
-    f:  -0.74697173 +/- 0.667449 (89.35%) (init=-0.2485931)
-    g:   18.5884046 +/- 2.714867 (14.61%) (init= 6.369189)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(c, e)                      =  1.000 
-    C(d, e)                      = -1.000 
-    C(c, d)                      = -1.000 
-    C(a, b)                      = -0.949 
-    C(c, g)                      = -0.860 
-    C(e, g)                      = -0.860 
-    C(d, g)                      =  0.853 
-    C(f, g)                      = -0.621 
-    C(c, f)                      =  0.528 
-    C(e, f)                      =  0.527 
-    C(d, f)                      = -0.520 
-    C(a, f)                      = -0.333 
-    C(b, f)                      =  0.295 
-    C(a, d)                      =  0.148 
-    C(a, e)                      = -0.148 
-    C(a, c)                      = -0.148 
-    C(b, d)                      = -0.132 
-    C(b, e)                      =  0.131 
-    C(b, c)                      =  0.131 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 205
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 21.699
-    reduced chi-square = 0.261
-[[Variables]]
-    a:  -0.71126330 +/- 0        (0.00%) (init=-0.8730049)
-    b:   0.05308494 +/- 0        (0.00%) (init= 0.05573058)
-    c:  -3.92832013 +/- 0        (0.00%) (init= 1.66582)
-    d:   1.10000000 +/- 0        (0.00%) (init= 1.1)
-    e:   0.54167972 +/- 0        (0.00%) (init= 3.923735)
-    f:  -0.55849515 +/- 0        (0.00%) (init=-0.9942105)
-    g:   0.25952057 +/- 0        (0.00%) (init= 0)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 175
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 401.820
-    reduced chi-square = 4.841
-[[Variables]]
-    a:  -5.07685816 +/- 0        (0.00%) (init=-1)
-    b:   0.21208539 +/- 0        (0.00%) (init= 0.4944655)
-    c:   76.1130992 +/- 0        (0.00%) (init= 45.60617)
-    d:  -1          +/- 0        (0.00%) (init=-1)
-    e:   6.1468e+07 +/- 0        (0.00%) (init= 112.0572)
-    f:   0.14883692 +/- 0        (0.00%) (init= 0.3018281)
-    g:   41.9712276 +/- 0        (0.00%) (init= 41.48332)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 159
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 763.337
-    reduced chi-square = 9.197
-[[Variables]]
-    a:  -2.57588336 +/- 0        (0.00%) (init=-0.6239674)
-    b:   2.4846e-08 +/- 0        (0.00%) (init= 0.1384891)
-    c:   105.265464 +/- 0        (0.00%) (init= 83.92436)
-    d:  -0.39877426 +/- 0        (0.00%) (init=-0.2100931)
-    e:   7.8704e+05 +/- 0        (0.00%) (init= 164.2175)
-    f:   0.11919276 +/- 0        (0.00%) (init= 0.1769914)
-    g:   52.4936464 +/- 0        (0.00%) (init= 51.71332)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 126
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 909.511
-    reduced chi-square = 10.958
-[[Variables]]
-    a:  -2.90918057 +/- 0        (0.00%) (init=-1)
-    b:   7.1471e-12 +/- 0        (0.00%) (init= 0.1324925)
-    c:   106.653621 +/- 0        (0.00%) (init= 89.97904)
-    d:   0.13251874 +/- 0        (0.00%) (init= 0.1893888)
-    e:   48.6989861 +/- 0        (0.00%) (init= 48.27777)
-    f:  -0.56267813 +/- 0        (0.00%) (init=-0.5626781)
-    g:   184.377544 +/- 0        (0.00%) (init= 184.3775)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 100
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 331.146
-    reduced chi-square = 3.990
-[[Variables]]
-    a:  -2.39479473 +/- 0        (0.00%) (init=-1)
-    b:   0.06218873 +/- 0        (0.00%) (init= 0.3545039)
-    c:   60.2648703 +/- 0        (0.00%) (init= 31.17856)
-    d:   0.15345607 +/- 0        (0.00%) (init= 0.3966116)
-    e:   44.5851987 +/- 0        (0.00%) (init= 43.34237)
-    f:  -1          +/- 0        (0.00%) (init=-1)
-    g:   115.893666 +/- 0        (0.00%) (init= 96.37034)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 200
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 231.410
-    reduced chi-square = 2.788
-[[Variables]]
-    a:  -2.07359279 +/- 0        (0.00%) (init=-1)
-    b:   0.03905457 +/- 0        (0.00%) (init= 0.3275635)
-    c:   56.7461841 +/- 0        (0.00%) (init= 26.86262)
-    d:  -0.14406282 +/- 0        (0.00%) (init= 1.03742)
-    e:   612.966430 +/- 0        (0.00%) (init= 4.098665)
-    f:   0.13326415 +/- 0        (0.00%) (init= 0.3732314)
-    g:   47.4348870 +/- 0        (0.00%) (init= 46.04796)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 153
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 4.716
-    reduced chi-square = 0.057
-[[Variables]]
-    a:  -0.01969805 +/- 0.085837 (435.77%) (init=-0.5312549)
-    b:   1.0543e-09 +/- 0.006007 (569861108.66%) (init= 0.07333822)
-    c:   48.0799426 +/- 0.438130 (0.91%) (init= 36.66776)
-    d:   0.32397837 +/- 0.012903 (3.98%) (init= 0.2062227)
-    e:   42.6406098 +/- 0.165176 (0.39%) (init= 52.05676)
-    f:   0.08960724 +/- 0.002070 (2.31%) (init= 0.07396921)
-    g:   52.2943159 +/- 0.140399 (0.27%) (init= 0.1793322)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      =  0.900 
-    C(a, b)                      =  0.873 
-    C(c, f)                      = -0.748 
-    C(d, g)                      =  0.728 
-    C(d, f)                      =  0.726 
-    C(a, c)                      =  0.718 
-    C(e, f)                      = -0.697 
-    C(c, d)                      = -0.657 
-    C(e, g)                      = -0.579 
-    C(f, g)                      =  0.575 
-    C(b, d)                      = -0.524 
-    C(b, f)                      = -0.446 
-    C(d, e)                      = -0.375 
-    C(a, d)                      = -0.331 
-    C(a, f)                      = -0.319 
-    C(c, g)                      = -0.298 
-    C(b, g)                      = -0.215 
-    C(c, e)                      =  0.187 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 85
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 3.206
-    reduced chi-square = 0.039
-[[Variables]]
-    a:  -0.21180997 +/- 0.074645 (35.24%) (init= 0.02093828)
-    b:   0.00856384 +/- 0.004341 (50.69%) (init= 0.05120043)
-    c:   55.0466499 +/- 0.375487 (0.68%) (init= 48.38796)
-    d:   0.09216156 +/- 0.001351 (1.47%) (init= 0.1333532)
-    e:   47.1303536 +/- 0.095173 (0.20%) (init= 47.97138)
-    f:   0.36119674 +/- 0.009904 (2.74%) (init= 1.008827)
-    g:   38.5477871 +/- 0.093555 (0.24%) (init= 37.59069)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.953 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.773 
-    C(c, d)                      = -0.731 
-    C(d, f)                      =  0.729 
-    C(e, f)                      =  0.696 
-    C(c, f)                      = -0.636 
-    C(e, g)                      = -0.623 
-    C(d, e)                      =  0.616 
-    C(d, g)                      = -0.588 
-    C(b, d)                      =  0.544 
-    C(b, f)                      =  0.544 
-    C(a, d)                      = -0.413 
-    C(a, f)                      = -0.353 
-    C(f, g)                      = -0.295 
-    C(c, e)                      = -0.240 
-    C(b, e)                      =  0.150 
-    C(b, g)                      =  0.112 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 130
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 273.375
-    reduced chi-square = 3.294
-[[Variables]]
-    a:  -1.34301823 +/- 0        (0.00%) (init=-0.5784675)
-    b:   1.6680e-09 +/- 0        (0.00%) (init= 0.0661789)
-    c:   60.5293129 +/- 0        (0.00%) (init= 51.62156)
-    d:   0.14246683 +/- 0        (0.00%) (init= 0.1959541)
-    e:   50.1418287 +/- 0        (0.00%) (init= 49.68765)
-    f:  -0.56299774 +/- 0        (0.00%) (init=-0.9081107)
-    g:   1.0206e+07 +/- 0        (0.00%) (init= 112.8148)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 190
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 4.048
-    reduced chi-square = 0.049
-[[Variables]]
-    a:  -0.56705971 +/- 0.219660 (38.74%) (init=-0.7372374)
-    b:   0.02594544 +/- 0.024548 (94.61%) (init= 0.04292821)
-    c:   4.54794400 +/- 22.76304 (500.51%) (init= 0.8738176)
-    d:   0.06388962 +/- 0.115248 (180.39%) (init= 0.7253339)
-    e:   73.9617799 +/- 105.1573 (142.18%) (init= 61.15736)
-    f:  -0.12827880 +/- 0.217279 (169.38%) (init=-0.5161915)
-    g:   90.1207309 +/- 22.47401 (24.94%) (init= 88.67879)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(c, e)                      =  0.998 
-    C(c, d)                      = -0.988 
-    C(d, e)                      = -0.981 
-    C(e, f)                      =  0.971 
-    C(c, f)                      =  0.971 
-    C(e, g)                      = -0.964 
-    C(f, g)                      = -0.961 
-    C(b, d)                      =  0.958 
-    C(c, g)                      = -0.950 
-    C(a, d)                      =  0.945 
-    C(a, e)                      = -0.941 
-    C(a, c)                      = -0.937 
-    C(d, f)                      = -0.930 
-    C(b, c)                      = -0.920 
-    C(b, e)                      = -0.896 
-    C(d, g)                      =  0.895 
-    C(a, g)                      =  0.885 
-    C(a, f)                      = -0.876 
-    C(b, f)                      = -0.849 
-    C(a, b)                      =  0.843 
-    C(b, g)                      =  0.755 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 379
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 21.690
-    reduced chi-square = 0.261
-[[Variables]]
-    a:  -0.70992515 +/- 0.135372 (19.07%) (init=-0.8917079)
-    b:   0.05306222 +/- 0.002446 (4.61%) (init= 0.05550415)
-    c:  -1.81898393 +/- 32.01540 (1760.07%) (init=-1.002259)
-    d:  -0.38582258 +/- 6.573680 (1703.81%) (init=-0.7715069)
-    e:   1.55326066 +/- 90.11593 (5801.73%) (init= 3.297281)
-    f:  -0.99999836 +/- 18.16110 (1816.11%) (init=-0.6667468)
-    g:   6.76102001 +/- 37.52398 (555.00%) (init= 5.444077)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(c, e)                      =  1.000 
-    C(c, d)                      = -0.984 
-    C(d, e)                      = -0.982 
-    C(d, g)                      = -0.974 
-    C(c, g)                      =  0.935 
-    C(e, g)                      =  0.931 
-    C(a, b)                      = -0.907 
-    C(f, g)                      =  0.770 
-    C(d, f)                      = -0.758 
-    C(c, f)                      =  0.664 
-    C(e, f)                      =  0.649 
-    C(a, f)                      = -0.248 
-    C(b, f)                      =  0.217 
-    C(a, d)                      =  0.153 
-    C(a, c)                      = -0.134 
-    C(b, d)                      = -0.133 
-    C(a, e)                      = -0.122 
-    C(b, c)                      =  0.117 
-    C(b, e)                      =  0.106 
-    C(a, g)                      = -0.103 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 4221
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 401.839
-    reduced chi-square = 4.841
-[[Variables]]
-    a:  -5.07730734 +/- 0.732793 (14.43%) (init=-0.3359513)
-    b:   0.21212563 +/- 0.078622 (37.06%) (init= 0.1498185)
-    c:   76.1105847 +/- 5.735513 (7.54%) (init= 76.24427)
-    d:  -0.99999905 +/- 1.05e+03 (105216.80%) (init=-1)
-    e:   99.7946477 +/- 1.31e+04 (13151.73%) (init= 91.86122)
-    f:   0.14883986 +/- 0.011474 (7.71%) (init= 0.1564556)
-    g:   41.9711716 +/- 0.252531 (0.60%) (init= 43.0526)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(d, e)                      = -0.999 
-    C(b, c)                      = -0.990 
-    C(c, f)                      = -0.932 
-    C(b, f)                      =  0.896 
-    C(a, b)                      = -0.675 
-    C(a, c)                      =  0.585 
-    C(b, d)                      = -0.430 
-    C(a, f)                      = -0.420 
-    C(b, e)                      =  0.413 
-    C(c, d)                      =  0.394 
-    C(c, e)                      = -0.378 
-    C(a, g)                      =  0.377 
-    C(a, d)                      =  0.334 
-    C(a, e)                      = -0.321 
-    C(d, f)                      = -0.318 
-    C(e, f)                      =  0.305 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 155
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 22.447
-    reduced chi-square = 0.270
-[[Variables]]
-    a:   0.02912360 +/- 0.197417 (677.86%) (init=-1)
-    b:   2.1706e-09 +/- 0.011476 (528708107.53%) (init= 0.2170935)
-    c:   113.376379 +/- 1.335887 (1.18%) (init= 83.92436)
-    d:   0.07169950 +/- 0.001846 (2.57%) (init= 0.121764)
-    e:   52.7916849 +/- 0.141556 (0.27%) (init= 52.58897)
-    f:   0.28054423 +/- 0.010071 (3.59%) (init= 1.012195)
-    g:   41.1093501 +/- 0.173826 (0.42%) (init= 40.73484)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(a, b)                      = -0.873 
-    C(b, c)                      = -0.869 
-    C(c, d)                      = -0.802 
-    C(d, f)                      =  0.734 
-    C(c, f)                      = -0.713 
-    C(d, g)                      = -0.703 
-    C(a, c)                      =  0.691 
-    C(b, f)                      =  0.571 
-    C(b, d)                      =  0.447 
-    C(e, f)                      =  0.432 
-    C(f, g)                      = -0.368 
-    C(a, f)                      = -0.359 
-    C(a, d)                      = -0.308 
-    C(c, g)                      =  0.251 
-    C(e, g)                      = -0.248 
-    C(a, e)                      =  0.112 
-    C(b, g)                      =  0.111 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 142
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 909.511
-    reduced chi-square = 10.958
-[[Variables]]
-    a:  -2.90919123 +/- 0        (0.00%) (init=-0.154826)
-    b:   1.5933e-12 +/- 0        (0.00%) (init= 0.09980947)
-    c:   106.653615 +/- 0        (0.00%) (init= 93.29342)
-    d:  -0.85103825 +/- 0        (0.00%) (init=-0.996279)
-    e:   4779.85309 +/- 0        (0.00%) (init= 102.4066)
-    f:   0.13251872 +/- 0        (0.00%) (init= 0.1590644)
-    g:   48.6989774 +/- 0        (0.00%) (init= 48.9134)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 110
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 21.994
-    reduced chi-square = 0.265
-[[Variables]]
-    a:  -2.47977197 +/- 0.200688 (8.09%) (init= 0.4539241)
-    b:   0.17291789 +/- 0.013562 (7.84%) (init= 0.04602265)
-    c:   78.5804576 +/- 1.031846 (1.31%) (init= 83.38408)
-    d:   0.46722258 +/- 0.028459 (6.09%) (init= 0.8258673)
-    e:   32.0379054 +/- 0.136670 (0.43%) (init= 18.04825)
-    f:   0.10928982 +/- 0.002362 (2.16%) (init= 0.1441708)
-    g:   41.5540456 +/- 0.111053 (0.27%) (init= 43.03314)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.982 
-    C(a, b)                      = -0.859 
-    C(c, f)                      = -0.796 
-    C(a, c)                      =  0.787 
-    C(d, f)                      =  0.726 
-    C(b, f)                      =  0.722 
-    C(c, d)                      = -0.609 
-    C(a, f)                      = -0.569 
-    C(b, d)                      =  0.560 
-    C(d, g)                      =  0.520 
-    C(e, g)                      = -0.457 
-    C(f, g)                      =  0.365 
-    C(a, d)                      = -0.365 
-    C(e, f)                      = -0.305 
-    C(a, g)                      =  0.197 
-    C(b, e)                      =  0.151 
-    C(c, e)                      = -0.115 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 138
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 22.447
-    reduced chi-square = 0.270
-[[Variables]]
-    a:   0.02912426 +/- 0.197418 (677.85%) (init= 0.1360023)
-    b:   1.6944e-09 +/- 0.007263 (428686721.04%) (init= 0.2029069)
-    c:   113.376442 +/- 1.335944 (1.18%) (init= 83.92436)
-    d:   0.28054350 +/- 0.010071 (3.59%) (init= 0.6277704)
-    e:   41.1093694 +/- 0.173837 (0.42%) (init= 41.17315)
-    f:   0.07169932 +/- 0.001845 (2.57%) (init= 0.1188978)
-    g:   52.7916812 +/- 0.141558 (0.27%) (init= 52.53344)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(a, b)                      =  0.873 
-    C(b, c)                      =  0.869 
-    C(c, f)                      = -0.802 
-    C(d, f)                      =  0.734 
-    C(c, d)                      = -0.713 
-    C(e, f)                      = -0.703 
-    C(a, c)                      =  0.691 
-    C(b, d)                      = -0.571 
-    C(b, f)                      = -0.447 
-    C(d, g)                      =  0.431 
-    C(d, e)                      = -0.368 
-    C(a, d)                      = -0.359 
-    C(a, f)                      = -0.308 
-    C(c, e)                      =  0.250 
-    C(e, g)                      = -0.248 
-    C(a, g)                      =  0.113 
-    C(b, e)                      = -0.111 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 72
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 13.768
-    reduced chi-square = 0.166
-[[Variables]]
-    a:  -0.19901945 +/- 0.155323 (78.04%) (init= 0.2666994)
-    b:   4.1600e-09 +/- 0.009116 (219151940.20%) (init= 0.1768548)
-    c:   110.521884 +/- 0.826880 (0.75%) (init= 92.48061)
-    d:   0.35183146 +/- 0.009770 (2.78%) (init= 0.4750095)
-    e:   38.6281847 +/- 0.097266 (0.25%) (init= 40.15794)
-    f:   0.08485733 +/- 0.001291 (1.52%) (init= 0.09606923)
-    g:   48.0617956 +/- 0.093208 (0.19%) (init= 47.96173)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.942 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.763 
-    C(c, f)                      = -0.732 
-    C(d, f)                      =  0.719 
-    C(c, d)                      = -0.644 
-    C(d, g)                      =  0.614 
-    C(e, f)                      = -0.571 
-    C(b, d)                      =  0.541 
-    C(e, g)                      = -0.541 
-    C(b, f)                      =  0.512 
-    C(f, g)                      =  0.469 
-    C(a, f)                      = -0.382 
-    C(a, d)                      = -0.348 
-    C(d, e)                      = -0.259 
-    C(b, e)                      =  0.160 
-    C(c, g)                      = -0.127 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 156
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 4.520
-    reduced chi-square = 0.054
-[[Variables]]
-    a:  -0.12342787 +/- 0.092891 (75.26%) (init= 0.2468935)
-    b:   0.00113486 +/- 0.005950 (524.37%) (init= 0.1381476)
-    c:   66.1189380 +/- 0.502896 (0.76%) (init= 51.89493)
-    d:   0.09027768 +/- 0.001408 (1.56%) (init= 0.1360323)
-    e:   43.2569718 +/- 0.107843 (0.25%) (init= 44.37494)
-    f:   0.36223232 +/- 0.009322 (2.57%) (init= 0.9013191)
-    g:   35.9368507 +/- 0.086118 (0.24%) (init= 36.43389)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.970 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.793 
-    C(c, d)                      = -0.761 
-    C(d, f)                      =  0.749 
-    C(e, g)                      = -0.698 
-    C(e, f)                      =  0.694 
-    C(d, e)                      =  0.655 
-    C(c, f)                      = -0.654 
-    C(b, d)                      =  0.626 
-    C(b, f)                      =  0.580 
-    C(d, g)                      = -0.580 
-    C(a, d)                      = -0.487 
-    C(a, f)                      = -0.382 
-    C(f, g)                      = -0.327 
-    C(c, e)                      = -0.244 
-    C(b, e)                      =  0.148 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 76
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 14.147
-    reduced chi-square = 0.170
-[[Variables]]
-    a:  -1.06652167 +/- 0.159208 (14.93%) (init=-0.9927091)
-    b:   0.07480361 +/- 0.009526 (12.73%) (init= 0.1043729)
-    c:   55.6011669 +/- 0.839528 (1.51%) (init= 51.81164)
-    d:   0.34993595 +/- 0.019130 (5.47%) (init= 0.6685883)
-    e:   38.0975918 +/- 0.195465 (0.51%) (init= 37.58125)
-    f:   0.08792193 +/- 0.002848 (3.24%) (init= 0.1071695)
-    g:   46.2559293 +/- 0.216873 (0.47%) (init= 47.34729)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.954 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.775 
-    C(c, f)                      = -0.739 
-    C(d, f)                      =  0.734 
-    C(d, g)                      =  0.693 
-    C(e, g)                      = -0.657 
-    C(c, d)                      = -0.649 
-    C(f, g)                      =  0.625 
-    C(e, f)                      = -0.607 
-    C(b, d)                      =  0.557 
-    C(b, f)                      =  0.553 
-    C(a, f)                      = -0.419 
-    C(a, d)                      = -0.362 
-    C(d, e)                      = -0.320 
-    C(c, g)                      = -0.239 
-    C(b, g)                      =  0.139 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 112
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 4.716
-    reduced chi-square = 0.057
-[[Variables]]
-    a:  -0.01969790 +/- 0.085836 (435.77%) (init=-1)
-    b:   1.0732e-07 +/- 0.004503 (4196235.30%) (init= 0.1049924)
-    c:   48.0799421 +/- 0.438099 (0.91%) (init= 36.66776)
-    d:   0.32397841 +/- 0.012903 (3.98%) (init= 0.2240704)
-    e:   42.6406093 +/- 0.165177 (0.39%) (init= 46.67446)
-    f:   0.08960724 +/- 0.002069 (2.31%) (init= 0.1045243)
-    g:   52.2943163 +/- 0.140398 (0.27%) (init= 46.67446)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.900 
-    C(a, b)                      = -0.873 
-    C(c, f)                      = -0.748 
-    C(d, g)                      =  0.728 
-    C(d, f)                      =  0.726 
-    C(a, c)                      =  0.718 
-    C(e, f)                      = -0.697 
-    C(c, d)                      = -0.657 
-    C(e, g)                      = -0.579 
-    C(f, g)                      =  0.575 
-    C(b, d)                      =  0.524 
-    C(b, f)                      =  0.446 
-    C(d, e)                      = -0.375 
-    C(a, d)                      = -0.331 
-    C(a, f)                      = -0.319 
-    C(c, g)                      = -0.298 
-    C(b, g)                      =  0.215 
-    C(c, e)                      =  0.187 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 61
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 3.206
-    reduced chi-square = 0.039
-[[Variables]]
-    a:  -0.21181820 +/- 0.074645 (35.24%) (init=-0.937541)
-    b:   0.00856454 +/- 0.004341 (50.69%) (init= 0.07829325)
-    c:   55.0465742 +/- 0.375484 (0.68%) (init= 48.38796)
-    d:   0.36119975 +/- 0.009905 (2.74%) (init= 0.5750155)
-    e:   38.5477734 +/- 0.093555 (0.24%) (init= 38.39118)
-    f:   0.09216191 +/- 0.001351 (1.47%) (init= 0.1158296)
-    g:   47.1303753 +/- 0.095168 (0.20%) (init= 47.6506)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.953 
-    C(a, b)                      = -0.874 
-    C(a, c)                      =  0.773 
-    C(c, f)                      = -0.731 
-    C(d, f)                      =  0.729 
-    C(d, g)                      =  0.696 
-    C(c, d)                      = -0.636 
-    C(e, g)                      = -0.623 
-    C(f, g)                      =  0.616 
-    C(e, f)                      = -0.588 
-    C(b, f)                      =  0.544 
-    C(b, d)                      =  0.544 
-    C(a, f)                      = -0.413 
-    C(a, d)                      = -0.353 
-    C(d, e)                      = -0.295 
-    C(c, g)                      = -0.240 
-    C(b, g)                      =  0.150 
-    C(b, e)                      =  0.112 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
     # function evals   = 101
     # data points      = 90
     # variables        = 7
-    chi-square         = 4.000
-    reduced chi-square = 0.048
+    chi-square         = 0.738
+    reduced chi-square = 0.009
 [[Variables]]
-    a:  -0.20920476 +/- 0.080006 (38.24%) (init=-0.9936191)
-    b:   0.01121264 +/- 0.004290 (38.27%) (init= 0.1090129)
-    c:   62.0053841 +/- 0.387971 (0.63%) (init= 51.62156)
-    d:   0.09031122 +/- 0.001345 (1.49%) (init= 0.1296534)
-    e:   49.2079294 +/- 0.094585 (0.19%) (init= 50.00625)
-    f:   0.36820550 +/- 0.009556 (2.60%) (init= 1.09461)
-    g:   40.9336711 +/- 0.090587 (0.22%) (init= 40.66452)
+    a:  -0.23895971 +/- 0.032884 (13.76%) (init= 0.1521356)
+    b:   0.01071527 +/- 0.001631 (15.22%) (init= 0.0004577899)
+    c:   9.73639443 +/- 0.387939 (3.98%) (init= 8.407048)
+    d:   0.07572729 +/- 0.003888 (5.13%) (init= 0.1001041)
+    e:   72.3149604 +/- 0.912847 (1.26%) (init= 66.40034)
+    f:   0.27388393 +/- 0.045119 (16.47%) (init= 1.01565)
+    g:   45.1580928 +/- 0.726165 (1.61%) (init= 49)
 [[Correlations]] (unreported correlations are <  0.100)
-    C(b, c)                      = -0.928 
+    C(c, d)                      = -0.942 
+    C(d, e)                      = -0.900 
+    C(a, b)                      = -0.871 
+    C(c, e)                      =  0.870 
+    C(d, f)                      =  0.736 
+    C(c, f)                      = -0.686 
+    C(b, c)                      = -0.596 
+    C(e, f)                      = -0.488 
+    C(b, f)                      =  0.488 
+    C(e, g)                      =  0.459 
+    C(b, g)                      =  0.452 
+    C(a, c)                      =  0.441 
+    C(b, d)                      =  0.399 
+    C(d, g)                      = -0.353 
+    C(a, g)                      = -0.297 
+    C(a, f)                      = -0.296 
+    C(a, d)                      = -0.256 
+    C(c, g)                      =  0.151 
+    C(b, e)                      = -0.146 
+
+
+[[Model]]
+    Model(myfitfunction)
+[[Fit Statistics]]
+    # function evals   = 35
+    # data points      = 90
+    # variables        = 7
+    chi-square         = 14.005
+    reduced chi-square = 0.169
+[[Variables]]
+    a:  -1.02900127 +/- 0.157291 (15.29%) (init=-1.2346)
+    b:   0.05049803 +/- 0.009266 (18.35%) (init= 0.06455578)
+    c:   68.1855585 +/- 0.975352 (1.43%) (init= 66.25496)
+    d:   0.07219474 +/- 0.001921 (2.66%) (init= 0.07641492)
+    e:   50.9984882 +/- 0.159561 (0.31%) (init= 50.9421)
+    f:   0.33000345 +/- 0.015004 (4.55%) (init= 0.3579711)
+    g:   39.0803455 +/- 0.170608 (0.44%) (init= 38.89993)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(b, c)                      = -0.902 
     C(a, b)                      = -0.874 
-    C(a, c)                      =  0.745 
-    C(c, d)                      = -0.723 
-    C(d, f)                      =  0.706 
-    C(e, f)                      =  0.688 
-    C(d, g)                      = -0.631 
-    C(c, f)                      = -0.626 
-    C(e, g)                      = -0.609 
-    C(d, e)                      =  0.589 
-    C(b, f)                      =  0.514 
-    C(b, d)                      =  0.474 
-    C(a, d)                      = -0.351 
-    C(a, f)                      = -0.328 
-    C(f, g)                      = -0.315 
-    C(c, e)                      = -0.239 
-    C(b, e)                      =  0.144 
-    C(b, g)                      =  0.121 
+    C(c, d)                      = -0.760 
+    C(a, c)                      =  0.726 
+    C(d, f)                      =  0.702 
+    C(c, f)                      = -0.669 
+    C(d, g)                      = -0.557 
+    C(b, f)                      =  0.543 
+    C(b, d)                      =  0.449 
+    C(a, f)                      = -0.344 
+    C(a, d)                      = -0.320 
+    C(c, e)                      =  0.277 
+    C(a, e)                      =  0.256 
+    C(e, f)                      =  0.240 
+    C(b, g)                      =  0.233 
+    C(f, g)                      = -0.206 
+    C(e, g)                      = -0.161 
+    C(b, e)                      = -0.153 
+    C(a, g)                      = -0.148 
+    C(d, e)                      = -0.127 
 
 
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
-    # function evals   = 1047
+    # function evals   = 84
     # data points      = 90
     # variables        = 7
-    chi-square         = 5.161
-    reduced chi-square = 0.062
+    chi-square         = 15.094
+    reduced chi-square = 0.182
 [[Variables]]
-    a:  -0.73567865 +/- 0.067992 (9.24%) (init=-0.5168587)
-    b:   0.06182467 +/- 0.001724 (2.79%) (init= 0.05709828)
-    c:  -0.72140877 +/- 0.117486 (16.29%) (init=-0.6419536)
-    d:   1.09954668 +/- 6.734174 (612.45%) (init= 0.1381954)
-    e:   16.8182051 +/- 12.73101 (75.70%) (init= 2.253117)
-    f:   0.56720216 +/- 1.769245 (311.93%) (init= 0.1042483)
-    g:   18.3844468 +/- 11.76904 (64.02%) (init= 1.332525)
+    a:  -1.50695612 +/- 0.140925 (9.35%) (init=-0.4681925)
+    b:   0.08185805 +/- 0.006346 (7.75%) (init= 0.02650019)
+    c:   63.2129840 +/- 0.472765 (0.75%) (init= 67.69832)
+    d:   0.13995281 +/- 0.004453 (3.18%) (init= 0.1088783)
+    e:   48.8155868 +/- 0.253350 (0.52%) (init= 46.73084)
+    f:   0.47455443 +/- 0.023278 (4.91%) (init= 0.3684293)
+    g:   45.1585333 +/- 0.157641 (0.35%) (init= 45.89186)
 [[Correlations]] (unreported correlations are <  0.100)
-    C(e, g)                      = -0.955 
-    C(e, f)                      = -0.943 
-    C(f, g)                      =  0.939 
-    C(d, g)                      =  0.872 
-    C(b, c)                      = -0.773 
-    C(d, e)                      = -0.733 
-    C(d, f)                      =  0.729 
-    C(a, c)                      = -0.442 
-    C(c, f)                      =  0.412 
-    C(b, f)                      = -0.371 
-    C(c, g)                      =  0.330 
-    C(c, d)                      =  0.308 
-    C(c, e)                      = -0.286 
-    C(b, e)                      =  0.274 
-    C(b, g)                      = -0.248 
-    C(a, d)                      = -0.219 
-    C(b, d)                      = -0.184 
-    C(a, b)                      = -0.162 
-    C(a, g)                      = -0.141 
+    C(b, c)                      = -0.939 
+    C(d, e)                      =  0.883 
+    C(a, b)                      = -0.871 
+    C(e, g)                      = -0.844 
+    C(e, f)                      =  0.801 
+    C(d, g)                      = -0.785 
+    C(a, c)                      =  0.737 
+    C(d, f)                      =  0.699 
+    C(c, d)                      = -0.661 
+    C(c, f)                      = -0.545 
+    C(f, g)                      = -0.520 
+    C(b, d)                      =  0.480 
+    C(c, e)                      = -0.460 
+    C(b, f)                      =  0.457 
+    C(a, d)                      = -0.368 
+    C(b, e)                      =  0.329 
+    C(a, f)                      = -0.294 
+    C(c, g)                      =  0.241 
+    C(a, e)                      = -0.201 
 
 
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
-    # function evals   = 246
+    # function evals   = 51
     # data points      = 90
     # variables        = 7
-    chi-square         = 21.690
-    reduced chi-square = 0.261
+    chi-square         = 7.180
+    reduced chi-square = 0.087
 [[Variables]]
-    a:  -0.70991139 +/- 0.135390 (19.07%) (init=-0.7383034)
-    b:   0.05306199 +/- 0.002447 (4.61%) (init= 0.05352356)
-    c:  -1.85010064 +/- 33.91918 (1833.37%) (init=-1.70612)
-    d:  -0.38086480 +/- 6.582258 (1728.24%) (init=-0.0340567)
-    e:   1.46480468 +/- 95.06338 (6489.83%) (init= 2.080214)
-    f:  -0.99999997 +/- 16.05277 (1605.28%) (init=-0.9225919)
-    g:   6.74082678 +/- 37.27991 (553.05%) (init= 3.923735)
+    a:  -0.51556827 +/- 0.101538 (19.69%) (init=-0.3465572)
+    b:   0.02011889 +/- 0.005064 (25.17%) (init= 0.01307825)
+    c:   65.0285227 +/- 0.367746 (0.57%) (init= 65.28837)
+    d:   0.14318896 +/- 0.003081 (2.15%) (init= 0.1503032)
+    e:   46.3943311 +/- 0.168829 (0.36%) (init= 46.88828)
+    f:   0.43913428 +/- 0.016372 (3.73%) (init= 0.4789525)
+    g:   41.7642069 +/- 0.124861 (0.30%) (init= 41.34453)
 [[Correlations]] (unreported correlations are <  0.100)
-    C(c, e)                      =  1.000 
-    C(c, d)                      = -0.985 
-    C(d, e)                      = -0.983 
-    C(d, g)                      = -0.974 
-    C(c, g)                      =  0.935 
-    C(e, g)                      =  0.932 
-    C(a, b)                      = -0.907 
-    C(f, g)                      =  0.770 
-    C(d, f)                      = -0.756 
-    C(c, f)                      =  0.664 
-    C(e, f)                      =  0.651 
-    C(a, f)                      = -0.249 
-    C(b, f)                      =  0.217 
-    C(a, d)                      =  0.153 
-    C(a, c)                      = -0.134 
-    C(b, d)                      = -0.133 
-    C(a, e)                      = -0.123 
-    C(b, c)                      =  0.117 
-    C(b, e)                      =  0.107 
-    C(a, g)                      = -0.104 
+    C(b, c)                      = -0.960 
+    C(d, e)                      =  0.884 
+    C(a, b)                      = -0.869 
+    C(e, g)                      = -0.845 
+    C(e, f)                      =  0.829 
+    C(d, g)                      = -0.784 
+    C(a, c)                      =  0.760 
+    C(d, f)                      =  0.739 
+    C(c, d)                      = -0.695 
+    C(c, f)                      = -0.577 
+    C(b, d)                      =  0.569 
+    C(f, g)                      = -0.544 
+    C(b, f)                      =  0.506 
+    C(c, e)                      = -0.484 
+    C(a, d)                      = -0.442 
+    C(b, e)                      =  0.386 
+    C(a, f)                      = -0.330 
+    C(c, g)                      =  0.264 
+    C(a, e)                      = -0.243 
+    C(b, g)                      = -0.157 
+    C(a, g)                      =  0.152 
 
 
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
-    # function evals   = 132
+    # function evals   = 77
     # data points      = 90
     # variables        = 7
-    chi-square         = 1625.282
-    reduced chi-square = 19.582
+    chi-square         = 10.941
+    reduced chi-square = 0.132
 [[Variables]]
-    a:  -5.15354157 +/- 0        (0.00%) (init=-0.4161011)
-    b:   1.5771e-08 +/- 0        (0.00%) (init= 0.2968974)
-    c:   143.330858 +/- 0        (0.00%) (init= 108.3619)
-    d:   0.11150619 +/- 0        (0.00%) (init= 0.1528548)
-    e:   50.5250132 +/- 0        (0.00%) (init= 51.07909)
-    f:  -0.91020729 +/- 0        (0.00%) (init=-0.9102073)
-    g:   121.755340 +/- 0        (0.00%) (init= 121.7553)
+    a:  -2.28207747 +/- 0.140788 (6.17%) (init=-1.016372)
+    b:   0.15977181 +/- 0.009454 (5.92%) (init= 0.0270857)
+    c:   68.1300072 +/- 0.716138 (1.05%) (init= 80.31821)
+    d:   0.47610871 +/- 0.023691 (4.98%) (init= 0.2362361)
+    e:   32.0531945 +/- 0.109653 (0.34%) (init= 33.7268)
+    f:   0.11037092 +/- 0.001913 (1.73%) (init= 0.07426145)
+    g:   41.5431319 +/- 0.088504 (0.21%) (init= 38.7416)
 [[Correlations]] (unreported correlations are <  0.100)
+    C(b, c)                      = -0.982 
+    C(a, b)                      = -0.858 
+    C(c, f)                      = -0.794 
+    C(a, c)                      =  0.786 
+    C(d, f)                      =  0.722 
+    C(b, f)                      =  0.721 
+    C(c, d)                      = -0.604 
+    C(a, f)                      = -0.568 
+    C(b, d)                      =  0.555 
+    C(d, g)                      =  0.514 
+    C(e, g)                      = -0.450 
+    C(a, d)                      = -0.361 
+    C(f, g)                      =  0.357 
+    C(e, f)                      = -0.298 
+    C(a, g)                      =  0.202 
+    C(b, e)                      =  0.154 
+    C(c, e)                      = -0.119 
 
 
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
-    # function evals   = 142
+    # function evals   = 104
     # data points      = 90
     # variables        = 7
-    chi-square         = 50.020
-    reduced chi-square = 0.603
+    chi-square         = 23.326
+    reduced chi-square = 0.281
 [[Variables]]
-    a:  -0.03688411 +/- 0.321178 (870.78%) (init=-0.008723859)
-    b:   8.3027e-12 +/- 0.000859 (10347480656.16%) (init= 0.2188313)
-    c:   139.757141 +/- 2.953989 (2.11%) (init= 103.4692)
-    d:   0.24081431 +/- 0.010777 (4.48%) (init= 0.5216668)
-    e:   38.3961991 +/- 0.248783 (0.65%) (init= 37.8464)
-    f:   0.05893901 +/- 0.002272 (3.86%) (init= 0.09897057)
-    g:   52.3248532 +/- 0.258791 (0.49%) (init= 51.18516)
+    a:  -2.38997629 +/- 0.188870 (7.90%) (init=-4.396355)
+    b:   0.10510899 +/- 0.009702 (9.23%) (init= 0.290999)
+    c:   60.6997830 +/- 0.881954 (1.45%) (init= 41.01324)
+    d:   0.38267712 +/- 0.027825 (7.27%) (init= 0.1115416)
+    e:   41.7862543 +/- 0.232669 (0.56%) (init= 40)
+    f:   0.09413857 +/- 0.003004 (3.19%) (init= 0.1098554)
+    g:   52.2538141 +/- 0.178522 (0.34%) (init= 39.98941)
 [[Correlations]] (unreported correlations are <  0.100)
-    C(a, b)                      =  0.871 
-    C(b, c)                      =  0.870 
-    C(c, f)                      = -0.835 
-    C(c, d)                      = -0.769 
-    C(d, f)                      =  0.757 
-    C(e, f)                      = -0.695 
-    C(a, c)                      =  0.690 
-    C(b, d)                      = -0.640 
-    C(c, g)                      =  0.515 
-    C(b, f)                      = -0.487 
-    C(f, g)                      = -0.479 
-    C(a, d)                      = -0.403 
-    C(d, e)                      = -0.351 
-    C(a, f)                      = -0.327 
-    C(a, g)                      =  0.303 
-    C(c, e)                      =  0.269 
-    C(b, g)                      =  0.258 
-    C(e, g)                      =  0.164 
-    C(b, e)                      = -0.116 
-    C(a, e)                      = -0.101 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 111
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 27.208
-    reduced chi-square = 0.328
-[[Variables]]
-    a:  -0.48937355 +/- 0.201785 (41.23%) (init=-1)
-    b:   0.03245449 +/- 0.010274 (31.66%) (init= 0.3275324)
-    c:   142.709454 +/- 4.830314 (3.38%) (init= 63.96385)
-    d:   0.05518545 +/- 0.002511 (4.55%) (init= 0.1579706)
-    e:   72.0958829 +/- 1.117839 (1.55%) (init= 61.82037)
-    f:   0.23495615 +/- 0.010677 (4.54%) (init= 0.7267594)
-    g:   47.6895093 +/- 0.288337 (0.60%) (init= 48.5548)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(c, d)                      = -0.975 
-    C(c, e)                      =  0.966 
-    C(d, e)                      = -0.960 
-    C(a, b)                      = -0.870 
-    C(d, g)                      = -0.804 
-    C(e, g)                      =  0.772 
-    C(d, f)                      =  0.737 
-    C(c, f)                      = -0.707 
-    C(c, g)                      =  0.699 
-    C(e, f)                      = -0.577 
-    C(b, f)                      =  0.575 
-    C(b, c)                      = -0.481 
-    C(f, g)                      = -0.457 
-    C(b, d)                      =  0.368 
-    C(a, f)                      = -0.353 
-    C(a, c)                      =  0.333 
-    C(b, e)                      = -0.252 
-    C(a, d)                      = -0.222 
-    C(a, e)                      =  0.153 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 105
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 10.362
-    reduced chi-square = 0.125
-[[Variables]]
-    a:  -0.19393298 +/- 0.134094 (69.14%) (init=-1)
-    b:   0.00817320 +/- 0.007809 (95.55%) (init= 0.1901152)
-    c:   89.4721671 +/- 1.134509 (1.27%) (init= 61.24425)
-    d:   0.06123363 +/- 0.001463 (2.39%) (init= 0.1054163)
-    e:   55.9080332 +/- 0.206865 (0.37%) (init= 53.5001)
-    f:   0.28161936 +/- 0.008701 (3.09%) (init= 0.49463)
-    g:   41.1875921 +/- 0.144856 (0.35%) (init= 41.49079)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(a, b)                      = -0.872 
-    C(c, d)                      = -0.851 
-    C(b, c)                      = -0.790 
-    C(c, f)                      = -0.718 
-    C(d, f)                      =  0.708 
-    C(d, e)                      = -0.700 
-    C(c, e)                      =  0.671 
-    C(d, g)                      = -0.665 
-    C(a, c)                      =  0.619 
-    C(b, f)                      =  0.566 
-    C(b, d)                      =  0.397 
-    C(e, g)                      =  0.367 
-    C(a, f)                      = -0.353 
-    C(f, g)                      = -0.292 
-    C(c, g)                      =  0.278 
-    C(a, d)                      = -0.261 
-    C(a, e)                      =  0.225 
-    C(b, e)                      = -0.223 
-    C(e, f)                      = -0.218 
-    C(b, g)                      =  0.190 
-    C(a, g)                      = -0.137 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 251
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 28.505
-    reduced chi-square = 0.343
-[[Variables]]
-    a:  -0.41321331 +/- 0.206455 (49.96%) (init=-1)
-    b:   0.02699113 +/- 0.010485 (38.85%) (init= 0.1719067)
-    c:   80.4341917 +/- 3.156673 (3.92%) (init= 30.74703)
-    d:   0.23599254 +/- 0.043735 (18.53%) (init= 0.9856259)
-    e:   45.0656263 +/- 0.951132 (2.11%) (init= 18.11312)
-    f:   0.08067790 +/- 0.003614 (4.48%) (init= 0.2213379)
-    g:   76.5934882 +/- 0.866587 (1.13%) (init= 62.11436)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(c, f)                      = -0.960 
-    C(f, g)                      = -0.912 
-    C(c, g)                      =  0.910 
-    C(a, b)                      = -0.870 
-    C(d, f)                      =  0.783 
-    C(c, d)                      = -0.714 
-    C(b, c)                      = -0.568 
-    C(d, g)                      = -0.562 
-    C(b, e)                      =  0.547 
-    C(b, d)                      =  0.499 
-    C(b, f)                      =  0.451 
-    C(a, c)                      =  0.412 
-    C(e, g)                      =  0.373 
-    C(a, e)                      = -0.364 
-    C(a, d)                      = -0.299 
-    C(a, f)                      = -0.293 
-    C(e, f)                      = -0.200 
-    C(b, g)                      = -0.191 
-    C(d, e)                      =  0.143 
-    C(a, g)                      =  0.110 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 213
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 461.646
-    reduced chi-square = 5.562
-[[Variables]]
-    a:  -1.96964171 +/- 0        (0.00%) (init=-1)
-    b:   0.49999999 +/- 0        (0.00%) (init= 0.2289104)
-    c:  -17.7249056 +/- 0        (0.00%) (init=-0.6382228)
-    d:   0.14577704 +/- 0        (0.00%) (init= 0.6040672)
-    e:   21.4699931 +/- 0        (0.00%) (init= 8.712962)
-    f:   1.10000000 +/- 0        (0.00%) (init= 1.1)
-    g:   5.85790043 +/- 0        (0.00%) (init= 7.955112)
-[[Correlations]] (unreported correlations are <  0.100)
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 259
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 3.971
-    reduced chi-square = 0.048
-[[Variables]]
-    a:   9.34266201 +/- 3.207588 (34.33%) (init=-1)
-    b:   0.31768076 +/- 0.019450 (6.12%) (init= 0.1625118)
-    c:  -28.5349320 +/- 5.376787 (18.84%) (init=-0.3256488)
-    d:   0.04283520 +/- 0.007493 (17.49%) (init= 1.099917)
-    e:   15.5503090 +/- 3.004432 (19.32%) (init= 6.299651)
-    f:  -0.11042135 +/- 0.013571 (12.29%) (init= 0.7785116)
-    g:   88.1903722 +/- 2.077552 (2.36%) (init= 3.129825)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(a, d)                      = -0.988 
-    C(c, f)                      = -0.988 
-    C(a, c)                      = -0.952 
-    C(c, d)                      =  0.946 
-    C(d, f)                      = -0.934 
-    C(a, f)                      =  0.929 
-    C(c, g)                      = -0.925 
-    C(f, g)                      =  0.906 
-    C(a, g)                      =  0.790 
-    C(a, e)                      = -0.789 
-    C(d, e)                      =  0.757 
-    C(d, g)                      = -0.757 
-    C(b, g)                      =  0.708 
-    C(c, e)                      =  0.565 
-    C(e, f)                      = -0.519 
-    C(b, e)                      =  0.448 
-    C(b, f)                      =  0.425 
-    C(b, c)                      = -0.422 
-    C(e, g)                      = -0.302 
-    C(a, b)                      =  0.136 
-    C(b, d)                      = -0.113 
-
-
-[[Model]]
-    Model(myfitfunction)
-[[Fit Statistics]]
-    # function evals   = 288
-    # data points      = 90
-    # variables        = 7
-    chi-square         = 9.481
-    reduced chi-square = 0.114
-[[Variables]]
-    a:  -30.0265242 +/- 1.780880 (5.93%) (init=-1)
-    b:   0.49999999 +/- 0.027144 (5.43%) (init= 0.1078622)
-    c:   43.5049378 +/- 3.804052 (8.74%) (init= 5.311305)
-    d:  -0.22784185 +/- 0.037536 (16.47%) (init= 0.8323635)
-    e:   63.6340198 +/- 0.986149 (1.55%) (init= 3.935808)
-    f:  -0.04665258 +/- 0.002460 (5.27%) (init=-0.957437)
-    g:   16.7233231 +/- 1.909236 (11.42%) (init= 3.228525)
-[[Correlations]] (unreported correlations are <  0.100)
-    C(a, b)                      =  0.999 
-    C(c, f)                      =  0.940 
-    C(a, c)                      = -0.886 
-    C(b, c)                      = -0.880 
-    C(f, g)                      = -0.854 
-    C(d, f)                      =  0.824 
-    C(c, d)                      =  0.811 
-    C(a, e)                      = -0.795 
-    C(b, e)                      = -0.782 
-    C(a, d)                      = -0.722 
-    C(b, d)                      = -0.706 
-    C(a, f)                      = -0.703 
-    C(c, g)                      = -0.692 
-    C(b, f)                      = -0.690 
-    C(c, e)                      =  0.579 
-    C(d, e)                      =  0.561 
-    C(d, g)                      = -0.548 
-    C(e, f)                      =  0.365 
-    C(a, g)                      =  0.280 
-    C(b, g)                      =  0.270 
+    C(b, c)                      = -0.915 
+    C(a, b)                      = -0.873 
+    C(a, c)                      =  0.732 
+    C(c, f)                      = -0.715 
+    C(d, f)                      =  0.692 
+    C(c, d)                      = -0.606 
+    C(d, g)                      =  0.587 
+    C(e, f)                      = -0.550 
+    C(b, d)                      =  0.486 
+    C(b, f)                      =  0.442 
+    C(e, g)                      = -0.390 
+    C(f, g)                      =  0.364 
+    C(a, f)                      = -0.323 
+    C(a, d)                      = -0.309 
+    C(b, e)                      =  0.213 
+    C(d, e)                      = -0.208 
+    C(a, e)                      = -0.121 
+    C(c, g)                      = -0.112 
+    C(b, g)                      =  0.109 
 
 
