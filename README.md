@@ -20,7 +20,6 @@
 * ----
 * compare_pso.py主要是用一般的算法比如（Levenberg-Marquardt算法,Newton-CG算法等）这些算法容易陷入局部最优，所以对于初始解的选取特别的重要
 *----
-* compare_pso_select.py 也是采用一般的算法来对关键曲线节点进行拟合
 ************
 ### usage
 * python pso_only.py ./csvdata/file.csv RMSE(SSE,RScore,RMRS等) 
