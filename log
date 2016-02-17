@@ -1,5 +1,21 @@
-this fit curve with method is cg
-
+CPCR Curve fitting
+  the function is a+b*x+c/((1+math.exp(-d*(x-e)))*(1+math.exp(-f*(x-g))))
+  the program use pso to optimze the parameter of fuction above
+iterations=530
+ - Adding parameter for hint "a"
+ - Adding parameter for hint "b"
+ - Adding parameter for hint "c"
+ - Adding parameter for hint "d"
+ - Adding parameter for hint "e"
+ - Adding parameter for hint "f"
+ - Adding parameter for hint "g"
+ - Adding parameter "a"
+ - Adding parameter "b"
+ - Adding parameter "c"
+ - Adding parameter "d"
+ - Adding parameter "e"
+ - Adding parameter "f"
+ - Adding parameter "g"
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
@@ -18,7 +34,21 @@ this fit curve with method is cg
     g:   94.5364044 (init= 87)
 [[Correlations]] (unreported correlations are <  0.100)
 
-
+iterations=370
+ - Adding parameter for hint "a"
+ - Adding parameter for hint "b"
+ - Adding parameter for hint "c"
+ - Adding parameter for hint "d"
+ - Adding parameter for hint "e"
+ - Adding parameter for hint "f"
+ - Adding parameter for hint "g"
+ - Adding parameter "a"
+ - Adding parameter "b"
+ - Adding parameter "c"
+ - Adding parameter "d"
+ - Adding parameter "e"
+ - Adding parameter "f"
+ - Adding parameter "g"
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
@@ -37,7 +67,21 @@ this fit curve with method is cg
     g:   42.4980988 (init= 40)
 [[Correlations]] (unreported correlations are <  0.100)
 
-
+iterations=430
+ - Adding parameter for hint "a"
+ - Adding parameter for hint "b"
+ - Adding parameter for hint "c"
+ - Adding parameter for hint "d"
+ - Adding parameter for hint "e"
+ - Adding parameter for hint "f"
+ - Adding parameter for hint "g"
+ - Adding parameter "a"
+ - Adding parameter "b"
+ - Adding parameter "c"
+ - Adding parameter "d"
+ - Adding parameter "e"
+ - Adding parameter "f"
+ - Adding parameter "g"
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
@@ -56,7 +100,21 @@ this fit curve with method is cg
     g:   50.0415808 (init= 48)
 [[Correlations]] (unreported correlations are <  0.100)
 
-
+iterations=470
+ - Adding parameter for hint "a"
+ - Adding parameter for hint "b"
+ - Adding parameter for hint "c"
+ - Adding parameter for hint "d"
+ - Adding parameter for hint "e"
+ - Adding parameter for hint "f"
+ - Adding parameter for hint "g"
+ - Adding parameter "a"
+ - Adding parameter "b"
+ - Adding parameter "c"
+ - Adding parameter "d"
+ - Adding parameter "e"
+ - Adding parameter "f"
+ - Adding parameter "g"
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
@@ -75,7 +133,21 @@ this fit curve with method is cg
     g:   47.1427924 (init= 46)
 [[Correlations]] (unreported correlations are <  0.100)
 
-
+iterations=340
+ - Adding parameter for hint "a"
+ - Adding parameter for hint "b"
+ - Adding parameter for hint "c"
+ - Adding parameter for hint "d"
+ - Adding parameter for hint "e"
+ - Adding parameter for hint "f"
+ - Adding parameter for hint "g"
+ - Adding parameter "a"
+ - Adding parameter "b"
+ - Adding parameter "c"
+ - Adding parameter "d"
+ - Adding parameter "e"
+ - Adding parameter "f"
+ - Adding parameter "g"
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
@@ -94,7 +166,21 @@ this fit curve with method is cg
     g:   41.5533902 (init= 34)
 [[Correlations]] (unreported correlations are <  0.100)
 
-
+iterations=390
+ - Adding parameter for hint "a"
+ - Adding parameter for hint "b"
+ - Adding parameter for hint "c"
+ - Adding parameter for hint "d"
+ - Adding parameter for hint "e"
+ - Adding parameter for hint "f"
+ - Adding parameter for hint "g"
+ - Adding parameter "a"
+ - Adding parameter "b"
+ - Adding parameter "c"
+ - Adding parameter "d"
+ - Adding parameter "e"
+ - Adding parameter "f"
+ - Adding parameter "g"
 [[Model]]
     Model(myfitfunction)
 [[Fit Statistics]]
@@ -113,4 +199,5 @@ this fit curve with method is cg
     g:   6.94804521 (init= 12)
 [[Correlations]] (unreported correlations are <  0.100)
 
-
+***********************attention************************************
+please go to dir of result to save result_general_itera.txt

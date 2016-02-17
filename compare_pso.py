@@ -17,11 +17,11 @@ def main():
 
     filename=sys.argv[1]
     method=sys.argv[2]
-    numd=float(sys.argv[3])
-    numf=float(sys.argv[4])
-    if numd>1.1 or numd<-1 or numf>1.1 or numf<-1:
+    #numd=float(sys.argv[3])
+    #numf=float(sys.argv[4])
+    '''if numd>1.1 or numd<-1 or numf>1.1 or numf<-1:
         print('error input args 3 or args 4')
-        exit(0)
+        exit(0)'''
     data=readfile(filename)
     row,col=data.shape
     #print max(data[row-4])
@@ -44,7 +44,8 @@ def main():
         minNum=args.min()
         maxNum=args.max()
         meanNum=args.mean()
-        initialData=[minNum,numd,meanNum,0.1,maxNum,numf,maxNum]
+        radio=getX(args,length)
+        initialData=[minNum,0.01,meanNum,0.1,radio,0.7,radio]
         generalfit(initialData,0,length,method,args) 
     if row>0:
         print("***********************attention************************************")
