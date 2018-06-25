@@ -82,6 +82,27 @@ def readfile(filename):
             if row:
                 rows.append(row)
     return np.array(np.transpose(rows),dtype=float)
+def readheader(filename):
+    with open(filename) as f:
+       f_csv = csv.reader(f)
+       for row in f_csv:
+
+           if row:
+
+             return row
+def readfile_Rs(filename):
+    rows = []
+
+    with open(filename) as f:
+        while True:
+            line = f.readline()
+            if not line:
+                break
+            else:
+                line = line.replace('\n','')
+                print line
+                rows.append(line)
+    return rows
 #read weight data in csv format
 def readweightfile(filename):
     rows=[]
