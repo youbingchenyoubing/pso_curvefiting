@@ -1,5 +1,8 @@
 # CCPCR 荧光曲线拟合
 
+###论文
+[PSO+: 基于粒子群结合其他迭代算法非线性
+拟合热对流聚合酶连锁反应的荧光数据](http://www.hxyx.com/fileHXYY/PIC/swyxgcxzz/newcreate/swyxgcxzz-36-3-fuda_online.pdf)
 
 
 ## 这个源代码依赖库包括
